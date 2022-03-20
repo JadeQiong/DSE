@@ -7,3 +7,7 @@
 3.19
 Top K: heap & quick Sort
 greedy algorithm
+
+3.20
+binary tree decode and encode
+dp

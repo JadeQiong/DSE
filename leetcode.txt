@@ -1,5 +1,0 @@
-3.18 
-1. sliding window: deque
-2. Trie tree
-3. space optimization of Dp: reverse order
-4. devide into blocks and DP 
