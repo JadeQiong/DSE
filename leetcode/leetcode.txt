@@ -11,3 +11,7 @@ greedy algorithm
 3.20
 binary tree decode and encode
 dp
+
+3.21
+binary tree transversal using queue
+union find set
