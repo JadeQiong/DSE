@@ -15,3 +15,8 @@ dp
 3.21
 binary tree transversal using queue
 union find set
+mergesort find reverse pairs
+
+3.22
+union find set
+ugly numbers (dp/map)
