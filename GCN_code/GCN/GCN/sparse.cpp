@@ -2,11 +2,24 @@
 #include "sparse.h"
 
 
-sparse::sparse()
+Sparse::Sparse()
 {
 }
 
 
-sparse::~sparse()
+Sparse::~Sparse()
 {
+}
+
+void Sparse::print() {
+	std::cout << "---sparse index info---\n";
+	std::cout << "indptr: ";
+	for (auto i : indptr) {
+		std::cout << i << " ";
+	}
+	std::cout << "\n";
+	for (auto i : indices) {
+		std::cout << i << " ";
+	}
+	std::cout << "\n";
 }

@@ -20,3 +20,7 @@ mergesort find reverse pairs
 3.22
 union find set
 ugly numbers (dp/map)
+
+3.23
+dp for cutting rope (TBC)
+quick pow

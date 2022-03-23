@@ -1,8 +1,13 @@
 #pragma once
-class sparse
+#include<iostream>
+#include<vector>
+class Sparse
 {
 public:
-	sparse();
-	~sparse();
+	std::vector<int> indices;
+	std::vector<int> indptr;
+	Sparse();
+	~Sparse();
+	void print();
 };
 
