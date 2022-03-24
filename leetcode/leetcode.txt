@@ -24,3 +24,7 @@ ugly numbers (dp/map)
 3.23
 dp for cutting rope (TBC)
 quick pow
+
+3.24
+using swap to generate sort
+binary search
