@@ -2,10 +2,10 @@
 #include<vector>
 class Variable
 {
-private:
+
+public:
 	std::vector<float> data, grad;
 	std::vector<std::vector<float>> local_grad;
-public:
 	Variable(int size, bool requireGrad = true, bool threadLocalGrad = false);
 	void glorot(int inSize, int outSize);
 	void zero();

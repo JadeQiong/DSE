@@ -55,7 +55,7 @@ ReLU::ReLU(Variable*in ) {
 }
 
 void ReLU::forward(bool isTraining) {
-
+	//
 }
 
 void ReLU::backward() {
@@ -67,7 +67,14 @@ Dropout::Dropout(Variable*in, float p) {
 }
 
 void Dropout::forward(bool isTraining) {
-
+	if (!isTraining) return;
+	const int threshold = int(p * RAND_MAX);
+	float scale = 1 / (1 - p);
+	for (int i = 0; i < in->data.size(); i++) {
+		bool keep = (int)rand() >= threshold;
+		in->data[i] *= keep ? scale : 0;
+		if (mask) mask[i] = keep;
+	}
 }
 
 void Dropout::backward() {
