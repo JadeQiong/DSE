@@ -1,2 +1,16 @@
 ﻿  module.cpp
+c:\users\87179\desktop\gcn\dse\gcn_code\gcn\gcn\module.cpp(47): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\87179\desktop\gcn\dse\gcn_code\gcn\gcn\module.cpp(110): warning C4018: “<”: 有符号/无符号不匹配
+  variable.cpp
+c:\users\87179\desktop\gcn\dse\gcn_code\gcn\gcn\variable.cpp(3): warning C4005: “RAND_MAX”: 宏重定义
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(344): note: 参见“RAND_MAX”的前一个定义
+c:\users\87179\desktop\gcn\dse\gcn_code\gcn\gcn\variable.cpp(14): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\87179\desktop\gcn\dse\gcn_code\gcn\gcn\variable.cpp(20): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\87179\desktop\gcn\dse\gcn_code\gcn\gcn\variable.cpp(28): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\87179\desktop\gcn\dse\gcn_code\gcn\gcn\variable.cpp(29): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+  正在生成代码...
   GCN.vcxproj -> C:\Users\87179\Desktop\GCN\DSE\GCN_code\GCN\Debug\GCN.exe

@@ -10,13 +10,13 @@ Variable::~Variable()
 {
 }
 
-void Variable::zero() {
+void Variable::setZero() {
 	for (int i = 0;i < data.size();i++) {
 		data[i] = 0;
 	}
 }
 
-void Variable::zero_grad() {
+void Variable::setGradZero() {
 	for (int i = 0;i < grad.size();i++) {
 		grad[i] = 0;
 	}

@@ -44,3 +44,7 @@ review previous code
 3.29
 sliding window
 dp for number of )() in pair
+
+3.30
+grey code
+dfs/bfs 
