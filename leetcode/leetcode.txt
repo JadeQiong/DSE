@@ -51,3 +51,5 @@ dfs/bfs
 
 4.1
 weighted union set
+
+4.4 segment tree
