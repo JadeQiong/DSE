@@ -1,0 +1,12 @@
+﻿  GCN_simple.cpp
+c:\users\87179\desktop\gcn\dse\gcn_code\gcn_simple\gcn_simple\gcn_simple.cpp(133): warning C4305: “=”: 从“double”到“float”截断
+c:\users\87179\desktop\gcn\dse\gcn_code\gcn_simple\gcn_simple\gcn_simple.cpp(134): warning C4305: “=”: 从“double”到“float”截断
+c:\users\87179\desktop\gcn\dse\gcn_code\gcn_simple\gcn_simple\gcn_simple.cpp(135): warning C4305: “=”: 从“double”到“float”截断
+c:\users\87179\desktop\gcn\dse\gcn_code\gcn_simple\gcn_simple\gcn_simple.cpp(147): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\87179\desktop\gcn\dse\gcn_code\gcn_simple\gcn_simple\gcn_simple.cpp(168): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+c:\users\87179\desktop\gcn\dse\gcn_code\gcn_simple\gcn_simple\gcn_simple.cpp(199): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+c:\users\87179\desktop\gcn\dse\gcn_code\gcn_simple\gcn_simple\gcn_simple.cpp(246): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+c:\users\87179\desktop\gcn\dse\gcn_code\gcn_simple\gcn_simple\gcn_simple.cpp(278): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+c:\users\87179\desktop\gcn\dse\gcn_code\gcn_simple\gcn_simple\gcn_simple.cpp(277): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\87179\desktop\gcn\dse\gcn_code\gcn_simple\gcn_simple\gcn_simple.cpp(302): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+  GCN_simple.vcxproj -> C:\Users\87179\Desktop\GCN\DSE\GCN_code\GCN_simple\Debug\GCN_simple.exe
